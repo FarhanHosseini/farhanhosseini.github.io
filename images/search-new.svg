@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="search" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2px}
+        </style>
+    </defs>
+    <path id="Rectangle_2170" fill="none" d="M0 0H24V24H0z"/>
+    <g id="Icon_feather-search" transform="translate(-2.627 -3)">
+        <path id="Path_3537" d="M17.833 11.167A6.667 6.667 0 1 1 11.167 4.5a6.667 6.667 0 0 1 6.666 6.667z" class="cls-2" transform="translate(2 2)"/>
+        <path id="Path_3538" d="M28.54 28.738l-3.565-3.763" class="cls-2" transform="translate(-6.771 -6.771)"/>
+    </g>
+</svg>
