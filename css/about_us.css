@@ -1,0 +1,197 @@
+.center-title {
+  display: flex;
+  justify-content: center; }
+  .center-title h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #242424;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-top: 16px;
+    position: relative; }
+    .center-title h2::before, .center-title h2::after {
+      display: inline-block;
+      position: absolute;
+      content: '';
+      height: 4px;
+      background-color: #f6cf32;
+      top: 0; }
+    .center-title h2::before {
+      width: 32px;
+      right: 10px; }
+    .center-title h2::after {
+      width: 5px;
+      right: 0; }
+
+.right-title {
+  padding: 7px 10px;
+  border-right: 4px solid #f6cf32;
+  color: #242424;
+  font-size: 16px;
+  font-weight: 600; }
+
+.header-banner {
+  margin-bottom: 30px;
+  padding-top: 100px; }
+  .header-banner .header-banner-wrapper {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden; }
+    .header-banner .header-banner-wrapper .header-banner-content {
+      text-align: center;
+      position: absolute;
+      padding-top: 30px;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.67) 100%); }
+      .header-banner .header-banner-wrapper .header-banner-content p {
+        margin-bottom: 15px;
+        color: #f6cf32;
+        font-size: 16px; }
+        
+      .header-banner .header-banner-wrapper .header-banner-content h1 {
+        color: white;
+        font-size: 20px;
+        font-weight: bold; }
+    .header-banner .header-banner-wrapper figure {
+      margin: 0;
+      height: 400px;
+     }
+      .header-banner .header-banner-wrapper figure img {
+        object-fit: cover;
+       }
+
+.short-description p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #414141; }
+
+.team-info {
+  background-color: #f8f8f8;
+  padding: 95px 0;
+  margin-bottom: 100px;
+  position: relative; }
+  .team-info .center-title h2 {
+    margin-bottom: 12px; }
+  .team-info .arrow-back {
+    position: absolute;
+    top: -40px;
+    left: 20%; }
+  .team-info .team-description {
+    margin-bottom: 80px;
+    text-align: center;
+    color: #414141;
+    font-size: 16px; }
+  .team-info .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -10px; }
+    .team-info .team-members figure, .team-info .team-members p {
+      margin: 0; }
+    .team-info .team-members .member-item {
+      border: 1px solid #d3d3d3;
+      text-align: center;
+      margin: 0 10px 35px 10px;
+      width: 167px; }
+      .team-info .team-members .member-item .member-item-name {
+        font-weight: bold;
+        color: #242424;
+        margin-bottom: 5px;
+        font-size: 15px; }
+      .team-info .team-members .member-item .member-item-content {
+        padding: 14px 10px; }
+      .team-info .team-members .member-item .member-item-job {
+        color: #414141;
+        font-size: 13px; }
+
+.job-chance {
+  margin-bottom: 140px; }
+  .job-chance h2 {
+    margin-bottom: 90px; }
+  .job-chance ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 35px;
+    margin-bottom: 75px; }
+    .job-chance ul li {
+      border: 4px solid #f6cf32;
+      border-radius: 100%;
+      width: 60px;
+      height: 60px;
+      margin: 0 15px 10px;
+      overflow: hidden;
+      cursor: pointer; }
+      .job-chance ul li.add-new-job {
+        background-color: #f6cf32;
+        position: relative; }
+        .job-chance ul li.add-new-job::before {
+          position: absolute;
+          content: '+';
+          color: #242424;
+          display: inline-block;
+          top: 52%;
+          right: 50%;
+          transform: translate(50%, -50%);
+          font-size: 20px; }
+        .job-chance ul li.add-new-job a {
+          text-decoration: none;
+          color: #242424; }
+  .job-chance .more-chance {
+    background-color: #f6cf32;
+    color: #242424;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 10px 90px;
+    text-decoration: none;
+    display: inline-block; }
+
+.contact-us {
+  margin-bottom: 100px; }
+  .contact-us ul li {
+    display: flex;
+    align-items: flex-start; }
+    .contact-us ul li:not(:last-child) {
+      margin-bottom: 20px; }
+    .contact-us ul li i {
+      display: inline-block;
+      margin-left: 20px;
+      font-size: 20px;
+      color: #646464; }
+    .contact-us ul li .contact-title {
+      margin-bottom: 7px;
+      line-height: 1;
+      font-weight: bold; }
+  .contact-us p {
+    color: #242424;
+    margin: 0;
+    font-size: 16px; }
+    .contact-us p.contact-us-description {
+      margin-bottom: 20px; }
+  .contact-us .contact-info {
+    list-style: none; }
+  .contact-us .contact-map {
+    position: relative; }
+    .contact-us .contact-map img {
+      position: absolute;
+      bottom: -20%;
+      left: -11px; }
+      
+  .contact-us iframe {
+    width: 100%;
+    height: 415px;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 2;
+    position: relative; }
+
+@media only screen and (max-width: 992px) {
+  .header-banner-wrapper figure {
+    height: 400px; }
+    .header-banner-wrapper figure img {
+      height: 100%; } }
+
