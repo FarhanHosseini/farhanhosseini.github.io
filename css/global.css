@@ -33,7 +33,7 @@
     font-display:swap;
 }
 
-/* for this font we can litrally casuality most commen is medium, but we use orgianl one */
+/* for weight 500, most common is medium, or original font style */
 
 @font-face {
     font-family: IranSansWeb;
@@ -46,8 +46,8 @@
     font-display:swap;
 }
 
+/* for highest font-weight like black font-style, or weight 900 or higher */
 
-/* for higher font, like black font style we use weight 900 or around it, but its use for last one fonts counter */
 @font-face {
     font-family: IranSansWeb;
     src: url('../fonts/iransans/eot/IRANSansWeb_Bold.eot');
@@ -59,13 +59,34 @@
     font-display:swap;
 }
 
-/* global setting need for all projects befrre starts anything */
+/* default global structure setting for an HTML document */
 
 body {
-    line-height: normal;
-    list-style: none;
     box-sizing: border-box;
+    text-decoration: none;
     margin: 0;
     padding: 0;
     font-family: IranSansWeb;
+    direction: rtl;
+    text-align: right;
+    line-height: 1.5;
+    font-size: 14px;
+    background: #fff;
+}
+
+* {
+    line-height: normal;
+    list-style:none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
